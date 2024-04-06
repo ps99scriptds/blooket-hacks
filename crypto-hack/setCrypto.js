@@ -10,7 +10,7 @@
             };
         
             if (window.location.pathname != '/play/hack') {
-                alert('You must be in a crypto hack game mode to use this hack!');
+                alert('are u stupid?? ur not on blooket crypto gamemode!');
             } else {
                 let amount = Number(parseFloat(prompt('How much crypto do you want?')));
                 reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
